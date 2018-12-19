@@ -1,6 +1,7 @@
 # Vivaldi Compact
-Changes Vivaldi's tab bar and address bar to a more compact style via css.
-![Preview](username.github.com/repository/img/image.jpg)
+Changes Vivaldi's tab bar and address bar to a more compact style via css.  
+
+![Preview](https://raw.githubusercontent.com/egg303/vivaldi-compact/master/preview.gif)
 # Install
 1. Download the compact.css
 2. Move it to C:\Users\*your_name*\AppData\Local\Vivaldi\Application\*version_number*\resources\vivaldi\style
