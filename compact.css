@@ -1,0 +1,130 @@
+#browser.win.win10 .window-buttongroup {
+  top: -4px;
+}
+.toolbar .button-toolbar {
+  min-width: 28px;
+  height: 28px;
+}
+.toolbar .button-group > button > svg,
+.toolbar .button-dropdown > button > svg {
+  width: 5px;
+}
+.close {
+  padding: 0;
+}
+#header {
+  min-height: 20px;
+}
+.addressfield,
+.searchfield {
+  height: 22px;
+  margin-top: 2px;
+  padding: 0;
+}
+.addressfield .addressfield-siteinfo {
+  height: 18px;
+  margin: 1px;
+}
+.addressfield .addressfield-siteinfo .siteinfo-symbol > svg {
+  padding: 1px;
+}
+.addressfield form input.url {
+  height: 18px;
+}
+.tab-position .tab {
+  font-size: 12px;
+}
+.tab-position .tab .tab-header {
+  flex: 0 0 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.tab-position .tab .favicon {
+  flex: 0 0 24px;
+  min-width: 24px;
+  height: 24px;
+  background-size: 20px;
+}
+.tab-position .tab .close {
+  display: inline;
+}
+.theme-dark .tab-position .tab.active .tab-header .favicon {
+  filter: brightness(100%);
+}
+.audioicon {
+  transform: scale(0.6) translateZ(0);
+  padding-top: 4px;
+  padding-left: 6px;
+}
+#tabs-container .toggle-trash,
+#tabs-container .synced-tabs-button,
+#tabs-container .newtab {
+  min-height: 24px;
+}
+.win #tabs-container .close,
+.linux:not(.alt) #tabs-container .close {
+  margin-right: 0;
+  margin-top: 4px;
+}
+.win #tabs-container .tab:not(.pinned):not(.tab-small).audio-on .favicon,
+.linux:not(.alt) #tabs-container .tab:not(.pinned):not(.tab-small).audio-on .favicon,
+.win #tabs-container .tab:not(.pinned):not(.tab-small).audio-muted .favicon,
+.linux:not(.alt) #tabs-container .tab:not(.pinned):not(.tab-small).audio-muted .favicon,
+.win #tabs-container .tab:not(.pinned):not(.tab-small).tab-captured .favicon,
+.linux:not(.alt) #tabs-container .tab:not(.pinned):not(.tab-small).tab-captured .favicon {
+  transform: scale(1);
+}
+#tabs-container.top {
+  padding-top: 0px;
+}
+.win.normal #tabs-container.top,
+.linux.normal #tabs-container.top {
+  padding-top: 0px;
+}
+.win10.normal #tabs-container.top {
+  padding-top: 0;
+}
+.win #tabs-container.top {
+  padding-left: 34px;
+  padding-right: 140px;
+}
+.toolbar-addressbar .button-toolbar svg,
+.toolbar-mailbar .button-toolbar svg {
+  height: 26px;
+  width: 32px;
+  transform: scale(0.9);
+}
+button.button-addressfield {
+  height: 18px;
+  margin: 1px;
+  padding: 1px;
+}
+.tabs-top.tabs-at-edge.fullscreen .vivaldi,
+.tabs-top.tabs-at-edge.maximized .vivaldi {
+  height: 24px;
+}
+.win10 .vivaldi {
+  height: 26px;
+}
+.searchfield .search-engines {
+  margin-right: 3px;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  padding: 1px;
+}
+.searchfield .searchfield-input {
+  height: 18px;
+}
+#tabs-container .newtab {
+    margin-top: 3px;
+}
+.toolbar .button-group > button, .toolbar .button-dropdown > button {
+    margin-right: 4px;
+}
+.tab-position .tab.unread {
+    border-top-right-radius: 0;
+}
+#tabs-container {
+    height: 24px !important;
+}
