@@ -3,7 +3,7 @@
 }
 .toolbar .button-toolbar {
   min-width: 28px;
-  height: 28px;
+  height: 27px;
 }
 .toolbar .button-group > button > svg,
 .toolbar .button-dropdown > button > svg {
@@ -41,11 +41,19 @@
   padding-left: 0;
 }
 .tab-position .tab .favicon {
-  flex: 0 0 24px;
-  min-width: 24px;
-  height: 24px;
+  flex: 0 0 20px;
+  min-width: 16px;
+  height: 16px;
+  width: 16px;
   background-size: 20px;
+  margin-top: 3px;
+  margin-left: 3px;
 }
+
+.tab-position .tab .title {
+  margin-left: 4px;
+}
+
 .tab-position .tab .close {
   display: inline;
 }
@@ -127,4 +135,23 @@ button.button-addressfield {
 }
 #tabs-container {
     height: 24px !important;
+}
+
+.toolbar-mainbar > .button-toolbar > button, .toolbar-mainbar > .toolbar-group > .button-toolbar > button {
+  height: 27px;
+}
+
+.toolbar-addressbar .UrlField {
+  height: 18px;
+}
+
+.toolbar-tabbar.sync-and-trash-container {
+  margin-top: -3px;
+}
+
+.toolbar-tabbar > .button-toolbar > button, .toolbar-tabbar > .toolbar-group > .button-toolbar > button {
+  min-height: 24px;
+  height: 24px;
+  min-width: 32px;
+  margin-top: 2px;
 }
